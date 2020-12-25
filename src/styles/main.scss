@@ -1,0 +1,40 @@
+//plugin
+@import '~bootstrap/scss/bootstrap';
+
+.container{
+  text-align: center;
+  user-select: none;
+  .container__heading{
+    margin: 40px 0;
+  }
+  .container__table{
+		display: grid;
+		@media only screen and (max-width: 600px){
+			grid-template-columns: repeat(1, auto) ;
+		}
+		@media only screen and (max-width: 768px){
+			grid-template-columns: repeat(2, auto) ;
+		}
+		grid-template-columns: repeat(3, auto) ;
+    margin: 0;
+    .table__item{
+      height: 50px;
+      cursor: pointer;
+      border: 1px solid #dbdbdb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.2s all;
+      font-size: 17px;
+      font-weight: 500;
+      &:hover{
+        background-color:  #ededed;
+      }
+    }
+    .table__item--highlight{
+      background-color: #ff9800 !important;
+      color: white
+    }
+  }
+}
+
