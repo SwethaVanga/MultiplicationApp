@@ -21,7 +21,7 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 ## Coding convetion fix
-yarn run eslint
+### `yarn run eslint`
 
 # Exercise
 Goal: Production of a client-side Web application to help a child understand multiplication.
