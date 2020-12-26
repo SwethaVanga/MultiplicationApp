@@ -1,17 +1,27 @@
 //plugin
 @import '~bootstrap/scss/bootstrap';
 
-
+$breakpoint-mobile: 640px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
 .container{
   text-align: center;
-  user-select: none;
+	user-select: none;
   .container__heading{
     margin: 40px 0;
   }
   .container__table{
 		display: grid;
-	  grid-template-columns: repeat(3, auto) ;
-    margin: 0;
+		@media (min-width: $breakpoint-mobile) {
+			grid-template-columns: repeat(1, auto) ;
+		}
+		@media (min-width: $breakpoint-tablet) {
+			grid-template-columns: repeat(2, auto) ;
+		}
+		@media (min-width: $breakpoint-desktop) {
+			grid-template-columns: repeat(3, auto) ;
+		}
+    margin: 10px;
     .table__item{
       height: 50px;
       cursor: pointer;

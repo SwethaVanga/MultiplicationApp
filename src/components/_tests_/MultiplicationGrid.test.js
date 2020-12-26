@@ -9,18 +9,18 @@ import {getNumbers, getMultiplesFromRange}  from '../../utils/numbers'
 configure({ adapter: new Adapter() })
 
 describe('MultiplicationGrid', () => {
-  //Test app rendered
+  /** Test app rendered */
   it('Expected App renders correctly', () => {
     shallow(<MultiplicationGrid />)
   })
 
-  //Test total numbers to be renderd
+  /** Test total numbers to be renderd */
   it(`Expected ${MAX_NUMBER} numbers to be rendered `, () => {
     const wrapper = shallow(<MultiplicationGrid />)
     expect(wrapper.find('.table__item').length).toEqual(MAX_NUMBER)
   })
 
-  //Test random number clicked between min and max number
+  /** Test random number clicked between min and max number */
   const randomNumber = Math.floor(Math.random() * MAX_NUMBER) + 1
   const numberList = getNumbers(MAX_NUMBER)
   const totalMultiples = (getMultiplesFromRange(randomNumber, numberList)).length

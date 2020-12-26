@@ -7,7 +7,7 @@ configure({ adapter: new Adapter() })
 
 describe('Test mutliples', () => {
  
-  //Test total numbers to be renderd
+  /** Test total multiples to be rendered */
   it('Expected number return multiples ', () => {
     const numbers = getNumbers(MAX_NUMBER)
     const result = getMultiplesFromRange(50, numbers)
