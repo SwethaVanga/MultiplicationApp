@@ -8,7 +8,7 @@ export const MultiplicationGrid = () => {
   const numbers = getNumbers(MAX_NUMBER)
 
   /**
-	 * The multiples of current number been calculated and set and highlighted on click event
+	 * The multiples of current number been calculated and set and highlighted on click event 
 	*/
   const handleClickNumber = (number) => {
     const multiples = getMultiplesFromRange(number, numbers)
