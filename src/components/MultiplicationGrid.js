@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, Row} from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import { MAX_NUMBER } from '../utils/config'
 import { getNumbers, getMultiplesFromRange } from '../utils/numbers'
 
@@ -17,9 +17,7 @@ export const MultiplicationGrid = () => {
 
   return (
     <Container>
-      <h1 className='container__heading'>
-				Multiplication app
-      </h1>
+      <h1 className='container__heading'>Multiplication app</h1>
       <Row className='container__table'>
         {numbers.map((number, i) => (
           <button
