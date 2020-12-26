@@ -38,12 +38,12 @@ If there is any information that you feel is missing from the story then please 
 
 Criteria for assessment: Important things that will be assessed are:
 
-Project layout.
-Coding style, i.e. your approach not whether you use semicolons or not ;)
-Your approach to unit testing/TDD
-Maintainability and extensibility
-Use of responsive design
-Performance & Accessibility
-Naming conventions used
-Meeting the requirements
-The test won’t be assessed on design at all, so don’t worry how it looks.
+* Project layout.
+* Coding style, i.e. your approach not whether you use semicolons or not ;)
+* Your approach to unit testing/TDD
+* Maintainability and extensibility
+* Use of responsive design
+* Performance & Accessibility
+* Naming conventions used
+* Meeting the requirements
+* The test won’t be assessed on design at all, so don’t worry how it looks.
