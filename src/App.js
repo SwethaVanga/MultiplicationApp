@@ -1,5 +1,5 @@
 import React from 'react'
-import MultiplicationGrid from './components/MultiplicationGrid'
+import { MultiplicationGrid } from './components/MultiplicationGrid'
 import './styles/main.scss'
 
 function App() {

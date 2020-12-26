@@ -3,7 +3,7 @@ import { Container, Row} from 'react-bootstrap'
 import { MAX_NUMBER } from '../utils/config'
 import { getNumbers, getMultiplesFromRange } from '../utils/numbers'
 
-const MultiplicationGrid = () => {
+export const MultiplicationGrid = () => {
   let [multiples, setMultiples] = useState([])
   const numbers = getNumbers(MAX_NUMBER)
 
@@ -33,5 +33,3 @@ const MultiplicationGrid = () => {
     </Container>
   )
 }
-
-export default MultiplicationGrid

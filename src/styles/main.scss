@@ -1,6 +1,7 @@
 //plugin
 @import '~bootstrap/scss/bootstrap';
 
+
 .container{
   text-align: center;
   user-select: none;
@@ -9,13 +10,7 @@
   }
   .container__table{
 		display: grid;
-		@media only screen and (max-width: 600px){
-			grid-template-columns: repeat(1, auto) ;
-		}
-		@media only screen and (max-width: 768px){
-			grid-template-columns: repeat(2, auto) ;
-		}
-		grid-template-columns: repeat(3, auto) ;
+	  grid-template-columns: repeat(3, auto) ;
     margin: 0;
     .table__item{
       height: 50px;

@@ -1,5 +1,6 @@
 /**
- * Calculate the mutliples with the math % for the current number, which checks the reminder 0
+ * Calculate the mutliples with the based on math % for the current number
+ * which checks the reminder 0
 */
 export const getMultiplesFromRange = (number, numberList) => {
   return numberList.filter(current => current % number === 0)
